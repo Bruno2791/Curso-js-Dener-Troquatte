@@ -21,18 +21,6 @@ function cadastraFuncionarios(){
 bottomCadastra.addEventListener("click", cadastraFuncionarios);
 */
 
+const materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
 
-
-
-
-function fatorialComLoop(n) {
-    let resultado = 1;
-
-    for (let i = 1; i <= n; i++) {
-        resultado *= i;
-    }
-
-    return resultado;
-}
-
-console.log(fatorialComLoop(1)); // Exemplo de uso
+console.log(materials.map((material) => material.length));
